@@ -25,6 +25,8 @@ export default function App() {
         position="right"
       />
 
+      <FAB label="Reset" onPress={() => setCount(0)} position="left" />
+
       <StatusBar style="auto" />
     </View>
   );
